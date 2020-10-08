@@ -14,4 +14,8 @@ class TextNote
     @tag = tag
   end
 
+  def add_to_collection(note, notebook)
+    notebook.collection.push(note)
+  end
+
 end
